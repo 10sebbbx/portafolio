@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.discordapp.com/attachments/1280607510637707337/1281046597752590386/351111178_216570984569450_868272378657207252_n.jpg?ex=66da4b1d&is=66d8f99d&hm=67e627aeefc26c361c0c0a9928291d11ccd9b2722084d291f92209076fd14bba&') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 18px;
+}
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+#clock {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.left, .right {
+    width: 45%;
+}
+h1, h2 {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+p, ul li {
+    color: #ffffff;
+    font-size: 18px;
+}
+.discord-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 1rem;
+}
